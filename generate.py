@@ -18,7 +18,7 @@ import requests
 GEMINI_KEY = os.environ["GEMINI_API_KEY"]
 PEXELS_KEY = os.environ.get("PEXELS_API_KEY") or ""
 PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY") or ""
-MODEL = os.environ.get("GEMINI_MODEL") or "gemini-2.5-flash"
+MODEL = os.environ.get("GEMINI_MODEL") or "gemini-3.5-flash"
 NICHE = os.environ.get("NICHE") or "fakta unik dunia"
 TOPIC = (os.environ.get("TOPIC") or "").strip()
 TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN") or ""
