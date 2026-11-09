@@ -1,4 +1,4 @@
-name: Buat Video Harian
+name: Youtube Short
 
 on:
   schedule:
