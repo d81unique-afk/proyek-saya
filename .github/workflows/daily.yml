@@ -2,7 +2,7 @@ name: Buat Video Harian
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 00:00 UTC = 07:00 WIB
+    - cron: "0 0 * * 6"   # 00:00 UTC = 07:00 WIB
   workflow_dispatch:
     inputs:
       topik:
